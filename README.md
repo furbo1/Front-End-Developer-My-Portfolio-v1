@@ -3,7 +3,6 @@ The purpose of this portfolio is to present potential employers my past work.
 All ulploads are free to use for anyone who wishes to use my work, with no guarantees or future updates, product taken as is.
 
 #Credits for React- Front End Developer Page:
-* Profile Avatar picture : Image by <a href="https://pixabay.com/vectors/man-person-avatar-face-head-156584/">here</a>
 * Futuristic Images : Image by Gerd Altmann from Pixabay
 * Particles.js created by Vincent Garreau on Codepen
 * View/Text the project here: https://furbo1.github.io/Front-End-Developer-My-Portfolio-v1/ (Of note that the picture from Parallax effect is not showing on Github pages).
