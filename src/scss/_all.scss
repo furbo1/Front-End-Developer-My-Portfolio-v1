@@ -106,27 +106,6 @@ a:focus {
     top: 10px;
 }
 
-#toggle {
-    top: 0;
-    left: 0;
-    position: absolute;
-    position: fixed;
-    background-color: transparent;
-    color: darkorange;
-    padding: 2px;
-    border: none;
-}
-
-#menu-close {
-    display: none;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    animation-name: modalopen;
-    animation-duration: var(--modal-duration);
-}
-
 @media ( min-width: 730px) {
     header {
         display: flex;
@@ -251,7 +230,7 @@ ul li {
 }
 
 .parallax {
-    background-image: url('/assets/images/spacex.jpg');
+    background-image: url('https://github.com/furbo1/Front-End-Developer-My-Portfolio-v1/blob/master/assets/images/spacex.jpg');
     height: 70vh;
     background-attachment: fixed;
     background-position: center;
