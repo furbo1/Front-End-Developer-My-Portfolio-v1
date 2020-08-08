@@ -15,7 +15,7 @@ class Main extends Component {
                     </h4> <quote> Elon Musk </quote>
             </div>
                      */}
-                     <div className = 'parallax'/> 
+                     <div className = 'parallax' data-aos="fade-right"> <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i><i class="fab fa-react"></i><i class="fab fa-node"></i><i class="fab fa-git"></i></div>
 
                     <div className = 'mainSection projects'
                         id = "projects"> 
@@ -166,15 +166,17 @@ class Main extends Component {
             </div>
                  <section id = 'description'>
                         <div className = 'container'>
-                            <div data-aos="fade-up">
+                            <div >
+                            <div className="abtMe" data-aos="fade-in">
                                 <h2> About me </h2> 
                                 <p> After a hugely sucessful career in Gaming industry in which I have held several executive roles including Fleet Cage Operations Manager and Casino Manager,due to my passion for programming, I decided to change careers and explore the limitless possibilities of programming and hopefully bring my modest contribution to the "Tech for good" community and help make the world a better place for all.</p>
-                                <div>
-                                        <h2>Experience Summary , Skills & Accomplishments:</h2>
-                                        <ul>
+                            </div>
+                                <div className="experience" >
+                                        <h2 data-aos="fade-left">Experience Summary , Skills & Accomplishments:</h2>
+                                        <ul data-aos="fade-left">
                                             <li>I was admitted at University(U.S.A.M.V.- Faculty of Management, Bucharest, Romania) as top of the list with 10/10 at Math exam and 9.75/10 in Physics, earning government study grant. Only the top ten highest exam scores received goverment study grants.</li>
                                             <li>As Fleet Cage Operations Manager:
-                                            <ul>
+                                            <ul data-aos="fade-right">
                                                     <li>Consistently emphasized the habit of 'sharing of ideas' within the organization. </li>
                                                     <li>I am a strong beliver in being a leader rather than a boss, and in leading by example.</li>
                                                     <li>Provided accounting and compliance support to over 100 Management teams working onboard the Global Casino Operations shipboard Casinos.</li>
@@ -184,14 +186,14 @@ class Main extends Component {
 
                                             </ul>  
                                             </li>    
-                                            <li>As Casino Manager: <ul>
+                                            <li data-aos="fade-in">As Casino Manager: <ul>
                                                 <li>I spearheaded teams of 12-40 employees and managed Casino enterprises generating monthly gaming revenue in excess one million USD.</li>
                                                 <li>Constantly analyzed budgeting and expenses, Casino floor and staff performance using various metrics.</li>
                                                 <li>Conceived plans for promotional activities, loyalty schemes and awards, developed financial analysis reports.</li>
                                                 <li>Proposed and implemented initiatives that saved the company millions of dollars, through reducing liabilities at games with high Jackpots/payouts.</li>
                                             </ul></li>
                 
-                                            <li>Publications:
+                                            <li data-aos="fade-up">Publications:
                                                 <ul>
                                                 <li><a href="https://planetsave.com/2017/11/12/mapping-the-global-efforts-to-restore-the-worlds-forests/">Mapping The Global Efforts To Restore The World’s Forests!</a></li>    
                                                 <li> <a href= "https://cleantechnica.com/2017/10/02/lab-grown-meat-arrived-good-news-planet/">Lab-Grown Meat Has Arrived, And It’s Good News For The Planet!</a></li>
